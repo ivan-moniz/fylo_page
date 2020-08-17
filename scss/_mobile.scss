@@ -1,0 +1,143 @@
+@media(max-width: 701px) {
+  .showcase {
+    .top-showcase {
+      padding: 1rem;
+      align-items: center;
+      align-content: center;
+      padding: 2rem 2rem;
+
+      .image {
+        width: 30%;
+      }
+
+      .navigation {
+        ul {
+          li {
+            font-size: .9rem;
+            padding: 0 .2rem;
+          }
+        }
+      }
+    }
+    .grid-container {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding-top: 2rem;
+
+      .call-to-action {
+        h2 {
+          padding-top: 2rem;
+          font-size: 1.6rem;
+          text-align: center;
+        }
+
+        p {
+          font-size: 1rem;
+          padding-top: 1rem;
+          text-align: center;
+        }
+
+        .form {
+          display: flex;
+          flex-direction: column;
+
+          button { width: 100%; }
+
+          input { width: 100%; }
+        }
+      }
+    }
+
+  }
+
+  main {
+    background-image: url('../images/bg-curve-mobile.svg');
+    margin-top: 4rem;
+    min-height: 200vh;
+
+    .section-container {
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      text-align: center;
+      padding: 4rem;
+
+        .text-container {
+
+          h2 {
+            font-size: 1.2rem;
+            padding-top: 5rem;
+          }
+
+          p {
+            text-align: left;
+            color: $light-grey;
+          }
+
+          a { padding-top: 4rem; }
+
+          hr {
+            position: relative;
+            left: 26%;
+          }
+
+          .card-box {
+            width: 100%;
+
+            p { color: #000; }
+
+            .quotes {
+              transform: translate(-100%, 100%);
+              left: -35%;
+            }
+
+            .img-box {
+              position: relative;
+              left: 4%;
+            }
+          }
+        }
+    }
+  }
+
+  .grid-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 400px;
+
+    .grid-2 {
+      .section-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        width: 100%;
+
+        .btn-secondary{ width: 100%; }
+        .input-section { width: 100%; }
+      }
+    }
+  }
+
+  .footer {
+    padding: 3rem;
+    .img { width: 30%; }
+
+    .footer-grid {
+      grid-template-columns: 1fr;
+      padding-top: 2rem;
+
+      .social-icons { text-align: center; }
+    }
+  }
+
+}

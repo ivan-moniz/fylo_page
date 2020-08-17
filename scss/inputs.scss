@@ -1,0 +1,19 @@
+%input {
+  border: 1px solid $light-grey;
+  border-radius: 3px;
+  padding: 8px 15px;
+  font-size: 17px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border: 1px solid $secondary-color;
+}
+
+
+.input-header {
+  @extend %input;
+  width: 50%;
+}
+
+.input-section {
+  @extend %input;
+  width: 60%;
+}

@@ -1,0 +1,24 @@
+%btn {
+  border-radius: 3px;
+  padding: 10px 40px;
+  margin: 3px;
+  font-weight: 700;
+  font-size: 13px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+
+  &:hover {
+    transform: scale(.98);
+  }
+}
+
+
+.btn-primary {
+  @extend %btn;
+  background-color: $bright-blue;
+}
+
+.btn-secondary {
+  @extend %btn;
+  background-color: $bright-blue;
+
+}
